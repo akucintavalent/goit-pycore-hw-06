@@ -33,7 +33,7 @@ class Record:
                 self.phones[i] = Phone(new_phone)
                 break
         else:
-            raise ValueError(f"Phone {old_phone} not found.")
+            raise KeyError(f"Phone {old_phone} not found.")
 
     def find_phone(self, phone):
         for p in self.phones:
