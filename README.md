@@ -94,7 +94,3 @@ The application includes validation:
 - Invalid phone numbers (non-digits or incorrect length) raise `ValueError`
 - Attempting to add duplicate phone numbers raises `ValueError`
 - Phone edits verify that the old phone number exists
-
-## License
-
-This is an educational project from the GoIT Python Core homework assignments.
